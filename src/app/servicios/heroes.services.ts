@@ -57,6 +57,8 @@ export class HeroesService{
             }
           ];
 
+     
+
     constructor(){
         console.log("Listo para utilizar servicio");
     }
@@ -81,9 +83,7 @@ export class HeroesService{
          heroeAux.push(heroe)
       }
     }
-
-    return console.log(heroeAux);
-    ;
+    return heroeAux;
   }
 
 }
